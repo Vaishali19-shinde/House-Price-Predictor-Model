@@ -4,17 +4,6 @@ A machine learning project for predicting house prices using regression techniqu
 
 ---
 
-## 📜 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Model Details](#-model-details)
-- [Screenshots](#-screenshots)
-
----
 
 ## 📌 Overview
 The **House Price Predictor** helps home buyers, sellers, and real estate enthusiasts estimate property valuations based on input features such as location, total square footage, number of bedrooms, and property age. By leveraging machine learning regression algorithms, this tool provides instant and data-driven price estimations through an intuitive web interface.
