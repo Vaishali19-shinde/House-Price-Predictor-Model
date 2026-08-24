@@ -7,6 +7,8 @@ A machine learning project for predicting house prices using regression techniqu
 ## 📜 Table of Contents
 
 - [Overview](#-overview)
+- [Uses of Project](#-uses-of-project)
+- [Model Inputs & Outputs](#-model-inputs--outputs)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -20,6 +22,38 @@ A machine learning project for predicting house prices using regression techniqu
 ## 📌 Overview
 
 The **House Price Predictor** helps buyers, sellers, and real estate professionals estimate property values accurately based on historical housing data. By analyzing core features such as square footage, number of bedrooms, location quality, and property age, the app delivers fast and reliable real estate valuations.
+
+---
+
+## 💡 Uses of Project
+
+* **Real Estate Valuation:** Helps real estate agents and appraisers establish fair market values for residential properties.
+* **Home Buyers & Sellers:** Empowers buyers to negotiate fair prices and assists homeowners in setting competitive listing prices.
+* **Property Investment Analysis:** Enables real estate investors to quickly evaluate potential returns based on property attributes.
+* **Educational & Portfolio Reference:** Demonstrates an end-to-end Data Science pipeline covering exploratory data analysis (EDA), regression modeling, interactive visualization, and deployment.
+
+---
+
+## 📥 Model Inputs & Outputs
+
+### Model Input Parameters (What You Enter)
+
+| Parameter Name | Data Type | Feature Code | Description | Range / Example Units |
+| :--- | :--- | :--- | :--- | :--- |
+| **Living Area** | Continuous | `sqft_living` | Total living area of the property | 500 – 10,000 sq ft |
+| **Bedrooms** | Discrete | `bedrooms` | Total number of bedrooms | 1 – 6+ bedrooms |
+| **Bathrooms** | Discrete / Continuous | `bathrooms` | Total number of bathrooms | 1.0 – 4.5+ bathrooms |
+| **Location / Zipcode**| Categorical | `location` | Geographic area or neighborhood code | Suburb, City Center, Rural |
+| **Year Built** | Discrete | `yr_built` | Year the house was constructed | 1900 – Present |
+| **Overall Condition** | Categorical | `condition` | General structural condition grade | 1 (Poor) to 5 (Excellent) |
+
+### Model Output (What You Get)
+
+| Output Result | Data Type | Description | Format / Example |
+| :--- | :--- | :--- | :--- |
+| **Predicted House Price** | Continuous Numerical | Estimated market value of the home | `$450,000` or `₹1.2 Cr` |
+| **Confidence Interval** | Numeric Range | Upper and lower estimated price range | `$430,000 – $470,000` |
+| **Interactive Price Chart** | Graphical Plot | Visual comparison of prediction vs. market trends | Interactive Plotly Chart |
 
 ---
 
@@ -58,4 +92,4 @@ The **House Price Predictor** helps buyers, sellers, and real estate professiona
 ├── screenshots/
 │   └── demo.png                            # Application preview images
 ├── requirements.txt                        # Required Python packages
-└── README.md                               # Project documentation# House-Price-Predictor-Model
+└── README.md                               # Project documentation
