@@ -12,10 +12,8 @@ A machine learning project for predicting house prices using regression techniqu
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
 - [Model Details](#-model-details)
-- [Screenshots](#-screenshots)
+
 
 ---
 
