@@ -58,12 +58,6 @@ House-Price-Predictor-Model/
 
 ---
 
-## ⚙️ Installation
-Clone the Repository
-
-git clone [https://github.com/Vaishali19-shinde/House-Price-Predictor-Model.git](https://github.com/Vaishali19-shinde/House-Price-Predictor-Model.git)
-cd House-Price-Predictor-Model
-
 
 
 
