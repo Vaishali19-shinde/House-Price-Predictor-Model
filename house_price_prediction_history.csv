@@ -1,0 +1,7 @@
+Time,Area_sqft,Bedrooms,Bathrooms,House_Age,Floors,Predicted Price,Category
+00:24:56,550,1,1,20,1,6841304.39,Premium Range
+00:18:01,800,1,1,20,1,8468576.47,Premium Range
+00:17:42,1500,2,3,2,1,14754937.42,Luxury Range
+00:17:33,1200,2,2,2,1,12510001.38,Luxury Range
+00:17:28,1200,2,2,5,1,12405542.02,Luxury Range
+00:17:00,1200,2,2,10,1,12231443.1,Luxury Range
